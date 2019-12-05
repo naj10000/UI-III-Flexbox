@@ -64,3 +64,135 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+nav .links{
+	
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+
+
+
+/* .head {
+	display:flex;
+	align-items: center;
+	justify-content: space-around;
+	
+} */
+
+#flex-column1 {
+	display:flex;
+	align-items: center;
+	flex-direction: row;
+	justify-content: space-evenly;
+	margin: 8%;
+}
+
+h1{
+	text-transform: uppercase;
+	
+
+}
+.headtitle{
+display: flex;
+	font-size:75px;
+	text-align: center;
+	align-items: center;
+	flex-direction: column;
+	
+	
+	
+}
+
+.headtitle button{
+	text-align: center;
+	width: 25%;
+}
+
+button {
+	border: 1px solid grey;
+
+}
+
+
+	
+	
+	
+
+.section1 {
+	display:flex;
+	flex-direction: row;
+	margin: 3%;
+}
+
+.features{
+	
+	width:50%;
+	
+	font-size: 20px;
+	
+
+
+}
+
+.about {
+	
+	width:50%;
+		font-size: 20px;
+	
+}
+
+#middleimg{
+	display: flex;
+	 justify-content: space-evenly;
+}
+
+.middle-img{
+	width: 80%;
+	
+}
+
+.section2{
+	display:flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	margin: 3%;
+}
+
+.services {
+	
+	width:32%;
+	
+	font-size: 20px
+}
+
+
+.product{
+	
+	width:32%;
+	
+	font-size: 20px
+}
+
+.vision{
+	
+	width:32%;
+	
+	font-size: 20px
+}
+
+.address {
+	display: flex;
+	font-size: 20px;
+	margin-top: 3%;
+}
+
+.address h3 {
+	font-style: bold;
+}
+
+footer{
+	text-align: center;
+}
